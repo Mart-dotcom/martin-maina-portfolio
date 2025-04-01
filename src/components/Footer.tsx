@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="mb-4 md:mb-0">
             <a href="#" className="text-xl font-bold text-portfolio-navy">
               <span className="text-portfolio-green">{'<'}</span>
-              SIMON MUTHII
+              MARTIN MAINA
               <span className="text-portfolio-green">{'/>'}</span>
             </a>
           </div>
@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
           
           <div className="text-portfolio-slate text-sm">
-            © {currentYear} Your Name. All rights reserved.
+            © {currentYear} Martin Maina. All rights reserved.
           </div>
         </div>
       </div>
