@@ -89,11 +89,50 @@
   html {
     scroll-behavior: smooth;
   }
+  
+  .dark body {
+    @apply bg-portfolio-cyber-black text-portfolio-white;
+    background-image: radial-gradient(circle at center, rgba(15, 160, 206, 0.05) 0%, rgba(13, 2, 33, 1) 100%);
+    background-attachment: fixed;
+  }
+  
+  .dark body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 50px 50px;
+    opacity: 0.15;
+    pointer-events: none;
+    z-index: -1;
+    @apply bg-cyber-grid;
+  }
+  
+  .dark body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: rgba(1, 255, 195, 0.5);
+    animation: scanline 4s linear infinite;
+    opacity: 0.1;
+    pointer-events: none;
+    z-index: 100;
+  }
 }
 
 @layer components {
   .section-heading {
     @apply text-3xl font-bold text-portfolio-navy mb-6 pb-1 border-b border-portfolio-green inline-block;
+  }
+  
+  .dark .section-heading {
+    @apply text-portfolio-white border-portfolio-cyber-green;
+    text-shadow: 0 0 5px theme('colors.portfolio.cyber-green');
   }
 
   .hover-link {
@@ -108,19 +147,123 @@
     @apply w-full;
   }
   
+  .dark .hover-link::after {
+    @apply bg-portfolio-cyber-green;
+    box-shadow: 0 0 5px theme('colors.portfolio.cyber-green');
+  }
+  
   .skill-tag {
     @apply px-3 py-1 bg-portfolio-light-navy text-portfolio-lightest-slate rounded-md mr-2 mb-2 inline-block;
+  }
+  
+  .dark .skill-tag {
+    @apply bg-portfolio-cyber-dark text-portfolio-cyber-green border border-portfolio-cyber-teal border-opacity-40;
+    text-shadow: 0 0 2px theme('colors.portfolio.cyber-teal');
   }
 
   .project-card {
     @apply border border-portfolio-lightest-navy bg-white shadow-md rounded-lg overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
   }
+  
+  .dark .project-card {
+    @apply bg-portfolio-cyber-dark border-portfolio-cyber-blue border-opacity-40 shadow-md;
+    box-shadow: 0 4px 20px rgba(1, 255, 195, 0.1);
+  }
+  
+  .dark .project-card:hover {
+    box-shadow: 0 8px 25px rgba(1, 255, 195, 0.2);
+  }
 
   .btn-primary {
     @apply bg-portfolio-navy text-white px-6 py-3 rounded-md hover:bg-portfolio-light-navy transition-colors duration-300;
   }
+  
+  .dark .btn-primary {
+    @apply bg-portfolio-cyber-teal text-portfolio-cyber-black font-bold;
+    box-shadow: 0 0 10px rgba(1, 255, 195, 0.5);
+  }
+  
+  .dark .btn-primary:hover {
+    @apply bg-portfolio-cyber-green;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
 
   .btn-outline {
     @apply border border-portfolio-green text-portfolio-green px-6 py-3 rounded-md hover:bg-portfolio-green/10 transition-colors duration-300;
+  }
+  
+  .dark .btn-outline {
+    @apply border-portfolio-cyber-pink text-portfolio-cyber-pink;
+    box-shadow: 0 0 10px rgba(255, 42, 109, 0.3);
+  }
+  
+  .dark .btn-outline:hover {
+    @apply bg-portfolio-cyber-pink/10;
+    box-shadow: 0 0 15px rgba(255, 42, 109, 0.5);
+  }
+  
+  .cyber-text {
+    @apply font-bold tracking-wider;
+    text-shadow: 0 0 5px currentColor;
+  }
+  
+  .cyber-heading {
+    @apply cyber-text relative;
+    text-shadow: 0 0 5px currentColor, 0 0 10px currentColor;
+  }
+  
+  .cyber-border {
+    @apply relative;
+  }
+  
+  .cyber-border::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid currentColor;
+    opacity: 0.5;
+    z-index: -1;
+  }
+  
+  .cyber-card {
+    @apply relative backdrop-blur-sm bg-opacity-20 border border-opacity-40 transition-all duration-300;
+  }
+  
+  .cyber-card::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    background: linear-gradient(45deg, rgba(1, 255, 195, 0.4), transparent, rgba(15, 160, 206, 0.4), transparent);
+    background-size: 400% 400%;
+    z-index: -1;
+    animation: circuitFlow 3s infinite linear;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .cyber-card:hover::before {
+    opacity: 1;
+  }
+  
+  .circuit-bg {
+    @apply relative;
+  }
+  
+  .circuit-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cpath fill='none' stroke='%230FA0CE' stroke-width='0.5' d='M30,10 L30,50 L70,50 M70,10 L70,90 M10,30 L50,30 L50,70 M10,70 L90,70'/%3E%3C/svg%3E");
+    opacity: 0.05;
+    z-index: -1;
   }
 }

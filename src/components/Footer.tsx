@@ -12,14 +12,14 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="py-10 bg-white border-t border-gray-200">
+    <footer className="py-10 bg-white dark:bg-portfolio-cyber-black border-t border-gray-200 dark:border-portfolio-cyber-blue/20">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <a href="#" className="text-xl font-bold text-portfolio-navy">
-              <span className="text-portfolio-green">{'<'}</span>
+            <a href="#" className="text-xl font-bold text-portfolio-navy dark:text-portfolio-cyber-teal cyber-text">
+              <span className="text-portfolio-green dark:text-portfolio-cyber-pink">{'<'}</span>
               MARTIN MAINA
-              <span className="text-portfolio-green">{'/>'}</span>
+              <span className="text-portfolio-green dark:text-portfolio-cyber-pink">{'/>'}</span>
             </a>
           </div>
           
@@ -28,7 +28,7 @@ const Footer = () => {
               <a 
                 key={index}
                 href={link.url}
-                className="text-portfolio-slate hover:text-portfolio-green transition-colors"
+                className="text-portfolio-slate dark:text-portfolio-cyber-teal hover:text-portfolio-green dark:hover:text-portfolio-cyber-pink transition-colors duration-300"
                 aria-label={link.label}
               >
                 {link.icon}
@@ -36,7 +36,7 @@ const Footer = () => {
             ))}
           </div>
           
-          <div className="text-portfolio-slate text-sm">
+          <div className="text-portfolio-slate dark:text-portfolio-white text-sm">
             © {currentYear} Martin Maina. All rights reserved.
           </div>
         </div>

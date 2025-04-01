@@ -1,3 +1,4 @@
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +40,12 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.dark .logo:hover {
+  filter: drop-shadow(0 0 2em #01FFC3);
+}
+
+.dark .logo.react:hover {
+  filter: drop-shadow(0 0 2em #FF2A6D);
 }
