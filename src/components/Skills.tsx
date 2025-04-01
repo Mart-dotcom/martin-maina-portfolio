@@ -5,44 +5,44 @@ import { cn } from '@/lib/utils';
 const Skills = () => {
   const skillCategories = [
     {
+      title: "Technical Management",
+      icon: <Briefcase className="w-6 h-6 text-portfolio-green" />,
+      skills: ["Agile/Scrum", "JIRA", "Trello", "Sprint Planning", "Product Roadmapping", "Requirements Analysis", "Feature Prioritization"]
+    },
+    {
       title: "Frontend Development",
       icon: <Layout className="w-6 h-6 text-portfolio-green" />,
-      skills: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Vue.js", "Tailwind CSS", "Bootstrap"]
+      skills: ["HTML5", "CSS3", "JavaScript", "TypeScript", "React", "Flutter", "Responsive Design", "UI/UX"]
     },
     {
       title: "Backend Development",
       icon: <Server className="w-6 h-6 text-portfolio-green" />,
-      skills: ["Node.js", "Express", "PHP", "Python", "Java", "RESTful APIs", "GraphQL"]
+      skills: ["Node.js", "Firebase", "RESTful APIs", "GraphQL", "Authentication Systems"]
     },
     {
       title: "Database & Cloud",
       icon: <Database className="w-6 h-6 text-portfolio-green" />,
-      skills: ["SQL", "MongoDB", "PostgreSQL", "AWS", "Firebase", "Docker", "Kubernetes"]
+      skills: ["MongoDB", "PostgreSQL", "Firebase", "Cloud Hosting", "AWS", "Data Management"]
     },
     {
       title: "Tools & Methods",
       icon: <Terminal className="w-6 h-6 text-portfolio-green" />,
-      skills: ["Git", "GitHub", "VS Code", "NPM", "Webpack", "Jest", "CI/CD"]
-    },
-    {
-      title: "Project Management",
-      icon: <Briefcase className="w-6 h-6 text-portfolio-green" />,
-      skills: ["Agile", "Scrum", "JIRA", "Trello", "Kanban", "Requirements Analysis"]
+      skills: ["Git", "GitHub", "VS Code", "CI/CD", "A/B Testing", "QA Processes"]
     },
     {
       title: "Data & Analytics",
       icon: <LineChart className="w-6 h-6 text-portfolio-green" />,
-      skills: ["Python Data Science Stack", "SQL Queries", "Data Visualization", "Excel", "Tableau"]
+      skills: ["Google Analytics", "Facebook Pixel", "Conversion Tracking", "Data Visualization", "Performance Metrics"]
     },
     {
       title: "Cybersecurity",
       icon: <Shield className="w-6 h-6 text-portfolio-green" />,
-      skills: ["NIST Framework", "Security Audits", "Network Security", "Authentication Systems"]
+      skills: ["NIST Framework", "Payment Security", "Authentication Systems", "Data Protection"]
     },
     {
-      title: "Languages",
+      title: "Mobile Development",
       icon: <Code className="w-6 h-6 text-portfolio-green" />,
-      skills: ["JavaScript", "TypeScript", "Python", "PHP", "Java", "SQL", "HTML", "CSS"]
+      skills: ["React Native", "Flutter", "Mobile UI/UX", "App Store Optimization", "Location Services", "Push Notifications"]
     }
   ];
 

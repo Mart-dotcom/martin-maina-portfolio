@@ -6,70 +6,70 @@ import { cn } from '@/lib/utils';
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('All');
   
-  const projectCategories = ['All', 'Web Development', 'Mobile', 'UI/UX', 'Data'];
+  const projectCategories = ['All', 'E-Commerce', 'Mobile App', 'Product Management'];
   
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A fully responsive e-commerce platform with product filtering, cart functionality, and secure checkout.",
+      title: "Lucrebag E-Commerce Platform",
+      description: "A fully responsive e-commerce platform with M-Pesa and card payment integration, optimized for mobile and SEO.",
       image: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      category: "Web Development",
+      technologies: ["React", "Node.js", "MongoDB", "M-Pesa API", "Google Analytics", "Facebook Pixel"],
+      category: "E-Commerce",
       links: {
         live: "#",
         github: "#"
       }
     },
     {
-      title: "Project Management Dashboard",
-      description: "A comprehensive dashboard for tracking project progress, managing tasks, and analyzing team performance.",
+      title: "iCare Store Platform",
+      description: "An online store platform with inventory management, customer accounts, and integrated payment processing.",
       image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3",
-      technologies: ["Vue.js", "Express", "PostgreSQL", "Chart.js"],
-      category: "Web Development",
+      technologies: ["Vue.js", "Express", "PostgreSQL", "Payment APIs", "A/B Testing"],
+      category: "E-Commerce",
       links: {
         live: "#",
         github: "#"
       }
     },
     {
-      title: "Financial Analytics Platform",
-      description: "An interactive platform for analyzing financial data with customizable reports and visualizations.",
+      title: "Parcel Delivery App",
+      description: "A Grab-style delivery app for Kenya with real-time GPS tracking, automated rating systems, and M-Pesa integration.",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3",
-      technologies: ["React", "Python", "Flask", "D3.js", "SQLite"],
-      category: "Data",
+      technologies: ["Flutter", "Firebase", "Google Maps API", "M-Pesa", "React Native"],
+      category: "Mobile App",
       links: {
         live: "#",
         github: "#"
       }
     },
     {
-      title: "Mobile Fitness App",
-      description: "A cross-platform fitness application for tracking workouts, nutrition, and providing personalized recommendations.",
+      title: "Agile Project Management",
+      description: "Implementation of Agile/Scrum methodologies for software development teams, including sprint planning and tracking.",
       image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3",
-      technologies: ["React Native", "Firebase", "Expo", "Redux"],
-      category: "Mobile",
+      technologies: ["JIRA", "Trello", "Agile/Scrum", "Sprint Planning", "Product Roadmapping"],
+      category: "Product Management",
       links: {
         live: "#",
         github: "#"
       }
     },
     {
-      title: "Healthcare Portal UX Design",
-      description: "A comprehensive redesign of a healthcare portal focusing on accessibility and user experience.",
+      title: "Analytics Dashboard",
+      description: "Custom analytics dashboard for tracking user behavior, performance metrics, and conversion optimization.",
       image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3",
-      technologies: ["Figma", "Adobe XD", "User Research", "Prototyping"],
-      category: "UI/UX",
+      technologies: ["Google Analytics", "A/B Testing", "Data Visualization", "Dashboard Design"],
+      category: "Product Management",
       links: {
         live: "#",
         github: "#"
       }
     },
     {
-      title: "IoT Dashboard",
-      description: "A real-time dashboard for monitoring and controlling IoT devices with data visualization.",
+      title: "M-Pesa Integration System",
+      description: "Streamlined payment processing system using M-Pesa for e-commerce and mobile applications in Kenya.",
       image: "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?ixlib=rb-4.0.3",
-      technologies: ["React", "Node.js", "MQTT", "WebSockets", "Chart.js"],
-      category: "Data",
+      technologies: ["M-Pesa API", "Node.js", "Payment Processing", "Security Protocols", "Transaction Logging"],
+      category: "E-Commerce",
       links: {
         live: "#",
         github: "#"

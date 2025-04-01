@@ -8,36 +8,38 @@ const Experience = () => {
   
   const experiences = [
     {
-      company: "Tech Solutions Inc.",
-      position: "Senior Web Developer",
-      period: "2021 - Present",
+      company: "Lucrebag E-Commerce",
+      position: "Technical Product Manager",
+      period: "2022 - Present",
       responsibilities: [
-        "Lead a team of 5 developers in building and maintaining client websites",
-        "Implemented CI/CD pipeline, reducing deployment time by 30%",
-        "Developed custom CMS solutions for enterprise clients",
-        "Collaborated with design team to create responsive, accessible interfaces"
+        "Led the development of Lucrebag's e-commerce platform, ensuring a seamless shopping experience",
+        "Defined product roadmap, prioritized features, and managed agile sprints with developers and designers",
+        "Integrated payment gateways (M-Pesa, card payments) and optimized for mobile usability and SEO",
+        "Implemented Google Analytics & Facebook Pixel to track customer behavior and improve conversions",
+        "Achieved 40% increase in traffic within three months and streamlined order fulfillment"
       ]
     },
     {
-      company: "Digital Innovations",
+      company: "iCare Store",
       position: "Project Manager",
-      period: "2019 - 2021",
+      period: "2020 - 2022",
       responsibilities: [
-        "Managed end-to-end delivery of software projects for 10+ clients",
-        "Implemented agile methodologies, improving team efficiency by 25%",
-        "Coordinated between development, design, and client teams",
-        "Established project documentation standards and quality assurance processes"
+        "Managed the development and maintenance of the iCare online store platform",
+        "Coordinated between development, design, and client teams using Agile/Scrum methodologies",
+        "Established project documentation standards and quality assurance processes",
+        "Implemented A/B tests to improve user experience and conversion rates"
       ]
     },
     {
-      company: "WebCraft Studios",
-      position: "Frontend Developer",
-      period: "2017 - 2019",
+      company: "Parcel Delivery App",
+      position: "Product Development Lead",
+      period: "2019 - Present",
       responsibilities: [
-        "Built responsive websites and web applications using React and Vue.js",
-        "Collaborated with back-end developers to integrate user-facing elements",
-        "Optimized applications for maximum speed and scalability",
-        "Implemented A/B tests to improve user experience and conversion rates"
+        "Spearheaded the development of a Grab-style parcel delivery app for the Kenyan market",
+        "Coordinated with engineers, UI/UX designers, and logistics teams using Agile sprints",
+        "Implemented real-time GPS tracking (Google Maps API), automated rating systems, and M-Pesa integration",
+        "Successfully launched in Nairobi CBD, reducing delivery times by 30% and increasing driver efficiency",
+        "Managed the product using JIRA/Trello for sprint tracking and implemented A/B testing for optimization"
       ]
     }
   ];

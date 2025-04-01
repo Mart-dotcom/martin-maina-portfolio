@@ -8,14 +8,15 @@ const Hero = () => {
         <div className="max-w-3xl animate-fade-in">
           <p className="text-portfolio-green font-mono mb-2">Hi, my name is</p>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-portfolio-navy mb-4">
-            Your Name.
+            Simon Muthii.
           </h1>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-portfolio-slate mb-6">
-            I build things for the web.
+            Technical Product Manager & Developer.
           </h2>
           <p className="text-lg text-portfolio-slate max-w-2xl mb-8">
-            I'm a software developer specializing in building exceptional digital experiences. 
-            Currently, I'm focused on building accessible, human-centered products.
+            I'm a technical product manager specializing in building exceptional digital experiences for the Kenyan market.
+            With expertise in e-commerce platforms, mobile applications, and payment integrations, I bridge the gap between 
+            business needs and technological solutions.
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="#projects" className="btn-primary">
