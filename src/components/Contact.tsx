@@ -78,10 +78,10 @@ const Contact = () => {
                 <div className="ml-4">
                   <h4 className="text-sm text-portfolio-light-slate">Phone</h4>
                   <a 
-                    href="tel:+1234567890" 
+                    href="tel:+254712895991" 
                     className="text-portfolio-lightest-slate hover:text-portfolio-green transition-colors"
                   >
-                    +254 (XXX) XXX-XXX
+                    +254 712 895 991
                   </a>
                 </div>
               </div>
