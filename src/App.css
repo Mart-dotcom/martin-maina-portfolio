@@ -58,3 +58,23 @@
 .dark .cyber-text {
   text-shadow: 0 0 8px rgba(1, 255, 195, 0.4);
 }
+
+/* Ensure About section is visible */
+#about {
+  scroll-margin-top: 4rem;
+  position: relative;
+}
+
+.dark #about {
+  background-image: radial-gradient(circle at center, rgba(10, 25, 47, 0.5) 0%, rgba(13, 2, 33, 0.8) 100%);
+  box-shadow: 0 0 30px rgba(1, 255, 195, 0.1);
+}
+
+/* Button styles */
+.btn-primary {
+  @apply bg-portfolio-green text-portfolio-navy dark:bg-portfolio-cyber-teal dark:text-portfolio-cyber-black font-medium px-6 py-3 rounded-md hover:bg-portfolio-green/80 dark:hover:bg-portfolio-cyber-teal/80 transition-colors duration-300 inline-block;
+}
+
+.btn-outline {
+  @apply border-2 border-portfolio-green text-portfolio-green dark:border-portfolio-cyber-pink dark:text-portfolio-cyber-pink font-medium px-6 py-3 rounded-md hover:bg-portfolio-green/10 dark:hover:bg-portfolio-cyber-pink/10 transition-colors duration-300 inline-block;
+}
