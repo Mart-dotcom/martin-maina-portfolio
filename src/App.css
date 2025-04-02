@@ -49,3 +49,12 @@
 .dark .logo.react:hover {
   filter: drop-shadow(0 0 2em #FF2A6D);
 }
+
+/* Enhanced glow effects for dark mode */
+.dark h1, .dark h2, .dark h3 {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.dark .cyber-text {
+  text-shadow: 0 0 8px rgba(1, 255, 195, 0.4);
+}

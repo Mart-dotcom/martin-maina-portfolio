@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full bg-white/90 dark:bg-portfolio-cyber-black/90 backdrop-blur-sm shadow-sm dark:shadow-portfolio-cyber-teal/10 z-50 py-4">
       <div className="container mx-auto flex justify-between items-center px-4">
-        <a href="#" className="text-2xl font-bold text-portfolio-navy dark:text-portfolio-cyber-teal cyber-text">
+        <a href="#" className="text-2xl font-bold text-portfolio-navy dark:text-portfolio-white cyber-text">
           <span className="text-portfolio-green dark:text-portfolio-cyber-pink">{'<'}</span>
           PORTFOLIO
           <span className="text-portfolio-green dark:text-portfolio-cyber-pink">{'/>'}</span>

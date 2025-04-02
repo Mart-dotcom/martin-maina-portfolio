@@ -6,8 +6,8 @@ const Hero = () => {
     <section className="min-h-screen flex flex-col justify-center pt-16">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl animate-fade-in">
-          <p className="text-portfolio-green font-mono mb-2">Hi, my name is</p>
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-portfolio-navy mb-4">
+          <p className="text-portfolio-green dark:text-portfolio-cyber-teal font-mono mb-2">Hi, my name is</p>
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-portfolio-navy dark:text-portfolio-white mb-4">
             Martin Maina.
           </h1>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-portfolio-slate mb-6">

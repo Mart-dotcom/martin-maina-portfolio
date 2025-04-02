@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <a href="#" className="text-xl font-bold text-portfolio-navy dark:text-portfolio-cyber-teal cyber-text">
+            <a href="#" className="text-xl font-bold text-portfolio-navy dark:text-portfolio-white cyber-text">
               <span className="text-portfolio-green dark:text-portfolio-cyber-pink">{'<'}</span>
               MARTIN MAINA
               <span className="text-portfolio-green dark:text-portfolio-cyber-pink">{'/>'}</span>
