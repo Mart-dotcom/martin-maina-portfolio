@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center px-4">
         <a href="#" className="text-2xl font-bold text-portfolio-navy dark:text-portfolio-white cyber-text">
           <span className="text-portfolio-green dark:text-portfolio-cyber-pink">{'<'}</span>
-          PORTFOLIO
+          MARTIN MAINA
           <span className="text-portfolio-green dark:text-portfolio-cyber-pink">{'/>'}</span>
         </a>
         
