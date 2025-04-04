@@ -6,21 +6,20 @@ const Hero = () => {
     <section className="min-h-screen flex flex-col justify-center pt-16">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl animate-fade-in">
-          <p className="text-portfolio-green dark:text-portfolio-cyber-teal font-mono mb-2">Welcome to</p>
+          <p className="text-portfolio-green dark:text-portfolio-cyber-teal font-mono mb-2">Hi, my name is</p>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-portfolio-navy dark:text-portfolio-white mb-4">
-            Swaiy Express Kenya.
+            Martin Maina.
           </h1>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-portfolio-slate dark:text-portfolio-light-slate mb-6">
-            Fast, Reliable Delivery.
+            I build things for the web.
           </h2>
           <p className="text-lg text-portfolio-slate dark:text-portfolio-light-slate max-w-2xl mb-8">
-            A Grab-style delivery app for Kenya with real-time GPS tracking, automated rating systems, 
-            and M-Pesa integration. We bridge the gap between businesses and customers with reliable 
-            delivery solutions.
+            I'm a software developer specializing in building exceptional digital experiences. 
+            Currently, I'm focused on building accessible, human-centered products.
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="#projects" className="btn-primary">
-              Our Services
+              Check out my work
             </a>
             <a href="#contact" className="btn-outline">
               Get In Touch
