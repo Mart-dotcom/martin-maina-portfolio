@@ -6,21 +6,21 @@ const Hero = () => {
     <section className="min-h-screen flex flex-col justify-center pt-16">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl animate-fade-in">
-          <p className="text-portfolio-green dark:text-portfolio-cyber-teal font-mono mb-2">Hi, my name is</p>
+          <p className="text-portfolio-green dark:text-portfolio-cyber-teal font-mono mb-2">Welcome to</p>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-portfolio-navy dark:text-portfolio-white mb-4">
-            Martin Maina.
+            Swaiy Express Kenya.
           </h1>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-portfolio-slate dark:text-portfolio-light-slate mb-6">
-            Technical Product Manager & Developer.
+            Fast, Reliable Delivery.
           </h2>
           <p className="text-lg text-portfolio-slate dark:text-portfolio-light-slate max-w-2xl mb-8">
-            I'm a technical product manager specializing in building exceptional digital experiences for the Kenyan market.
-            With expertise in e-commerce platforms, mobile applications, and payment integrations, I bridge the gap between 
-            business needs and technological solutions.
+            A Grab-style delivery app for Kenya with real-time GPS tracking, automated rating systems, 
+            and M-Pesa integration. We bridge the gap between businesses and customers with reliable 
+            delivery solutions.
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="#projects" className="btn-primary">
-              View My Work
+              Our Services
             </a>
             <a href="#contact" className="btn-outline">
               Get In Touch
